@@ -4,10 +4,7 @@ import Counter from './src/components/Counter';
 export default function App() {
   return (
     <View style={styles.container}>
-      <Counter/>
-      <Counter/>
-      <Counter/>
-      <Counter/>
+      <Counter limite = {10} limetezero = {0}/>
     </View>
   );
 }
